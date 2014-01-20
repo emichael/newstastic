@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- There must be a date and editor attribute for the weeklyEmail.
+	 There also must be a teaser and an itemList which are children of the weeklyEmail.
+	 Every item must have a name and category.
+	 type attribute for item can be "new", "urgent" or omitted.
+	 deadline attribute is for reference only.
+	 date and location children of the item are optional, but info is required.
+	 Items will be displayed in the order they appear, grouped by category based on the order of the categories.-->
+<weeklyEmail date="September 2, 2012" volume="0" issue="0" editor="Ellis Michael">
+	<teaser>Insert witty phrase here.</teaser>
+	<itemList>
+		<item name="Freshman Picnic" category="Social Events" type="urgent" deadline="September 4th">
+			<date>September 3rd, 5pm</date>
+			<location>Park Park</location>
+			<info>As per tradition, we are having a picnic at the park in honor of our new freshmen!</info>
+		</item>
+		<item name="Submitting Your News Item" category="Miscellany" deadline="Never">
+			<info>If you have an event that you would like included in the weekly email, send an email to yourname@yourdomain.com with the following:&lt;ul&gt;
+			&lt;li&gt;&quot;[NewsSubmission] TITLE_OF_YOUR_ITEM&quot; in the subject line&lt;/li&gt;
+			&lt;li&gt;Information about your item&lt;/li&gt;
+			&lt;li&gt;The date of the event or item, if applicable&lt;/li&gt;
+			&lt;li&gt;The location of the event, if applicable&lt;/li&gt;
+			&lt;li&gt;The deadline until which you would like the news item to run&lt;/li&gt;&lt;/ul&gt;
+			To have your item included in the weekly email, it must be submitted by Saturday at midnight.</info>
+		</item>
+	</itemList>
+</weeklyEmail>
